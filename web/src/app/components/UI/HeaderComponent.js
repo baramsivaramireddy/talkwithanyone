@@ -21,7 +21,7 @@ const HeaderComponent = () => {
 
                 {/* name  */}
 
-                <p className="uppercase font-bold font-righteous text-3xl" > Talk with anyone</p>
+                <p className="uppercase font-bold font-righteous text-xs md:text-3xl" > Talk with anyone</p>
                 <div>
 
                 </div>
@@ -29,8 +29,8 @@ const HeaderComponent = () => {
 
             {/* sub Navigation */}
 
-            <div className="text-2xl flex  gap-5">
-                <Link href={'#features'} className="font-righteous text-white" > Features</Link>
+            <div className="text-2xl flex items-center  gap-5">
+                <Link href={'#features'} className="font-righteous md:text-xl text-sm text-white" > Features</Link>
                 {/* <Link href={'#features'} >   About Us </Link>
                 <Link href={'#features'} > Blogs</Link> */}
 

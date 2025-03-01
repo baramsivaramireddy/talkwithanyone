@@ -18,7 +18,7 @@ const HomepageComponent = () => {
 
             <BackGroundImageComponent >
 
-                <div className="grid grid-cols-6 gap-5 justify-center items-center h-screen" >
+                <div className="md:grid md:grid-cols-6  flex flex-col md:gap-5 gap-10  justify-center items-center h-screen" >
                     <div className=" col-span-4">
                         <ShortAboutUs />
                     </div>
@@ -49,20 +49,20 @@ export default function HomePage() {
 const ShortAboutUs = () => {
 
     return (<>
-        <div className="indent-5">
-            <p className="text-white text-7xl mb-12 font-figmaHand"> Talk. Connect.Feel at Peace</p>
+        <div className=" indent-2 md:indent-5">
+            <p className="text-white text-2xl font-bold md:text-7xl md:mb-12 font-figmaHand"> Talk. Connect.Feel at Peace</p>
 
-            <div className="indent-36">
-                <p className="text-white text-5xl  font-figmaHand ">
+            <div className="md:indent-36 indent-10">
+                <p className="text-white md:text-5xl  font-figmaHand ">
                     A safe space to talk
                 </p>
-                <p className="text-white text-5xl  font-figmaHand ">
+                <p className="text-white md:text-5xl  font-figmaHand ">
                     with real people worldwide ,
                 </p>
-                <p className="text-white text-5xl  font-figmaHand ">
+                <p className="text-white md:text-5xl  font-figmaHand ">
                     anonymously or openly,
                 </p>
-                <p className="text-white text-5xl font-figmaHand  ">
+                <p className="text-white md:text-5xl font-figmaHand  ">
                     in your preferred language.
                 </p>
             </div>
